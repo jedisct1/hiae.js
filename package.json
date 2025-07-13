@@ -1,0 +1,26 @@
+{
+  "name": "hiae-typescript",
+  "version": "1.0.0",
+  "description": "TypeScript implementation of HiAE authenticated encryption algorithm",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "bun build src/index.ts --outdir dist --target node",
+    "test": "bun test",
+    "test:watch": "bun test --watch",
+    "dev": "bun run src/index.ts",
+    "lint": "biome check .",
+    "lint:fix": "biome check --write .",
+    "format": "biome format --write ."
+  },
+  "keywords": ["hiae", "aead", "encryption", "cryptography"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@biomejs/biome": "^2.1.1",
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

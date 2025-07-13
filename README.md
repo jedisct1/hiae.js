@@ -1,6 +1,6 @@
 # HiAE TypeScript Implementation
 
-A TypeScript implementation of the HiAE (High-throughput Authenticated Encryption) algorithm as specified in draft-pham-cfrg-hiae.
+A TypeScript implementation of the HiAE (High-throughput Authenticated Encryption) algorithm as specified in [draft-pham-cfrg-hiae](https://hiae-aead.github.io/draft-pham-hiae/draft-pham-cfrg-hiae.html).
 
 ## Overview
 
